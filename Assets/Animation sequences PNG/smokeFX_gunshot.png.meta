@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 0a076b16843eb6e468ca76c56c7d64a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7236937820446353310
+    second: smokeFX_gunshot_0
+  - first:
+      213: -3527470912042676025
+    second: smokeFX_gunshot_1
+  - first:
+      213: 8758171761718722641
+    second: smokeFX_gunshot_2
+  - first:
+      213: 3087646407495901542
+    second: smokeFX_gunshot_3
+  - first:
+      213: -8299678639115214630
+    second: smokeFX_gunshot_4
+  - first:
+      213: 3656621810071075806
+    second: smokeFX_gunshot_5
+  - first:
+      213: 7155022643750588500
+    second: smokeFX_gunshot_6
+  - first:
+      213: 250983955570266187
+    second: smokeFX_gunshot_7
+  - first:
+      213: -5866291284456568193
+    second: smokeFX_gunshot_8
+  - first:
+      213: 8633882638287415362
+    second: smokeFX_gunshot_9
+  - first:
+      213: -6222435718552613943
+    second: smokeFX_gunshot_10
+  - first:
+      213: -2427367070461347809
+    second: smokeFX_gunshot_11
+  - first:
+      213: 4588348268510002379
+    second: smokeFX_gunshot_12
+  - first:
+      213: -8198364972126993697
+    second: smokeFX_gunshot_13
+  - first:
+      213: -6110476834220672872
+    second: smokeFX_gunshot_14
+  - first:
+      213: 8017370491342868661
+    second: smokeFX_gunshot_15
+  - first:
+      213: 5747071159915362526
+    second: smokeFX_gunshot_16
+  - first:
+      213: 4008558377310010002
+    second: smokeFX_gunshot_17
+  - first:
+      213: -7374447652397317418
+    second: smokeFX_gunshot_18
+  - first:
+      213: -8236140258444042966
+    second: smokeFX_gunshot_19
+  - first:
+      213: -6612489614247222170
+    second: smokeFX_gunshot_20
+  - first:
+      213: -8066485375746432806
+    second: smokeFX_gunshot_21
+  - first:
+      213: -8769696417694037509
+    second: smokeFX_gunshot_22
+  - first:
+      213: 6099908910428646438
+    second: smokeFX_gunshot_23
+  - first:
+      213: 6356129568861524111
+    second: smokeFX_gunshot_24
+  - first:
+      213: -8897953405101769063
+    second: smokeFX_gunshot_25
+  - first:
+      213: -5197886677605296096
+    second: smokeFX_gunshot_26
+  - first:
+      213: 3659229570758236934
+    second: smokeFX_gunshot_27
+  - first:
+      213: -7673597863105162288
+    second: smokeFX_gunshot_28
+  - first:
+      213: 375380326572920769
+    second: smokeFX_gunshot_29
+  - first:
+      213: -9075742597307176172
+    second: smokeFX_gunshot_30
+  - first:
+      213: -6501054623461361046
+    second: smokeFX_gunshot_31
+  - first:
+      213: 7858765651479761582
+    second: smokeFX_gunshot_32
+  - first:
+      213: -4283767240824707973
+    second: smokeFX_gunshot_33
+  - first:
+      213: 6637519653824098612
+    second: smokeFX_gunshot_34
+  - first:
+      213: 4449048285227949817
+    second: smokeFX_gunshot_35
+  - first:
+      213: -1906932692157305382
+    second: smokeFX_gunshot_36
+  - first:
+      213: -762857498869484387
+    second: smokeFX_gunshot_37
+  - first:
+      213: -4687825646956617108
+    second: smokeFX_gunshot_38
+  - first:
+      213: -5631006885618732660
+    second: smokeFX_gunshot_39
+  - first:
+      213: 608155967187216520
+    second: smokeFX_gunshot_40
+  - first:
+      213: -4358624128355642034
+    second: smokeFX_gunshot_41
+  - first:
+      213: -6239465004727625758
+    second: smokeFX_gunshot_42
+  - first:
+      213: 9142514439275772216
+    second: smokeFX_gunshot_43
+  - first:
+      213: -7249731442793270723
+    second: smokeFX_gunshot_44
+  - first:
+      213: -1861373017337420253
+    second: smokeFX_gunshot_45
+  - first:
+      213: -142890019044229768
+    second: smokeFX_gunshot_46
+  - first:
+      213: 2683064904876799192
+    second: smokeFX_gunshot_47
+  - first:
+      213: 1081158633450752712
+    second: smokeFX_gunshot_48
+  - first:
+      213: -7073778649723469824
+    second: smokeFX_gunshot_49
+  - first:
+      213: -6314345323251211147
+    second: smokeFX_gunshot_50
+  - first:
+      213: -2350843858944330876
+    second: smokeFX_gunshot_51
+  - first:
+      213: -7610647214280247868
+    second: smokeFX_gunshot_52
+  - first:
+      213: 8692511241489588331
+    second: smokeFX_gunshot_53
+  - first:
+      213: 8328123929573960109
+    second: smokeFX_gunshot_54
+  - first:
+      213: 8111992520140657805
+    second: smokeFX_gunshot_55
+  - first:
+      213: 2220102972019398484
+    second: smokeFX_gunshot_56
+  - first:
+      213: -2746594564771254060
+    second: smokeFX_gunshot_57
+  - first:
+      213: 6310471264434690491
+    second: smokeFX_gunshot_58
+  - first:
+      213: -3703284519677209
+    second: smokeFX_gunshot_59
+  - first:
+      213: -1240017080312829555
+    second: smokeFX_gunshot_60
+  - first:
+      213: 6355103475163683440
+    second: smokeFX_gunshot_61
+  - first:
+      213: 8096688957430357762
+    second: smokeFX_gunshot_62
+  - first:
+      213: 488901713450142619
+    second: smokeFX_gunshot_63
+  - first:
+      213: -3950460669052655084
+    second: smokeFX_gunshot_64
+  - first:
+      213: -166225652073214167
+    second: smokeFX_gunshot_65
+  - first:
+      213: 7822905901508453157
+    second: smokeFX_gunshot_66
+  - first:
+      213: -1934949313654827877
+    second: smokeFX_gunshot_67
+  - first:
+      213: -5610178230332949720
+    second: smokeFX_gunshot_68
+  - first:
+      213: -7704984303950787206
+    second: smokeFX_gunshot_69
+  - first:
+      213: 1596129920758134076
+    second: smokeFX_gunshot_70
+  - first:
+      213: 5595988882307187649
+    second: smokeFX_gunshot_71
+  - first:
+      213: 196861032577283565
+    second: smokeFX_gunshot_72
+  - first:
+      213: 8274368006651970818
+    second: smokeFX_gunshot_73
+  - first:
+      213: -4665933220202696006
+    second: smokeFX_gunshot_74
+  - first:
+      213: 8623493074245517070
+    second: smokeFX_gunshot_75
+  - first:
+      213: -7655931569748836810
+    second: smokeFX_gunshot_76
+  - first:
+      213: 4311704110186511291
+    second: smokeFX_gunshot_77
+  - first:
+      213: -4418250285062116845
+    second: smokeFX_gunshot_78
+  - first:
+      213: 5191900026899657960
+    second: smokeFX_gunshot_79
+  - first:
+      213: -8085934616635062678
+    second: smokeFX_gunshot_80
+  - first:
+      213: -3521857904971207452
+    second: smokeFX_gunshot_81
+  - first:
+      213: -32121178152873618
+    second: smokeFX_gunshot_82
+  - first:
+      213: -3866704978782105423
+    second: smokeFX_gunshot_83
+  - first:
+      213: -7703734043407409037
+    second: smokeFX_gunshot_84
+  - first:
+      213: 6241677352488633000
+    second: smokeFX_gunshot_85
+  - first:
+      213: -3728617376606862845
+    second: smokeFX_gunshot_86
+  - first:
+      213: 9219317329529745141
+    second: smokeFX_gunshot_87
+  - first:
+      213: 8507439521410667242
+    second: smokeFX_gunshot_88
+  - first:
+      213: -7619415039788404013
+    second: smokeFX_gunshot_89
+  - first:
+      213: -5569095524847470588
+    second: smokeFX_gunshot_90
+  - first:
+      213: 3431280804148484321
+    second: smokeFX_gunshot_91
+  - first:
+      213: 5232432813424370144
+    second: smokeFX_gunshot_92
+  - first:
+      213: -2554848689744763204
+    second: smokeFX_gunshot_93
+  - first:
+      213: -552358165581542488
+    second: smokeFX_gunshot_94
+  - first:
+      213: 8088790385631348015
+    second: smokeFX_gunshot_95
+  - first:
+      213: -2621262000752022915
+    second: smokeFX_gunshot_96
+  - first:
+      213: 3950926869555592107
+    second: smokeFX_gunshot_97
+  - first:
+      213: -4409296023579015644
+    second: smokeFX_gunshot_98
+  - first:
+      213: -8237258548222224161
+    second: smokeFX_gunshot_99
+  - first:
+      213: -8463054048282125381
+    second: smokeFX_gunshot_100
+  - first:
+      213: 8387567100772454771
+    second: smokeFX_gunshot_101
+  - first:
+      213: -3838461924254068047
+    second: smokeFX_gunshot_102
+  - first:
+      213: 6141379166827791308
+    second: smokeFX_gunshot_103
+  - first:
+      213: -2629462935428682868
+    second: smokeFX_gunshot_104
+  - first:
+      213: -7780266289701749834
+    second: smokeFX_gunshot_105
+  - first:
+      213: 721109280919184988
+    second: smokeFX_gunshot_106
+  - first:
+      213: -3951694595878465300
+    second: smokeFX_gunshot_107
+  - first:
+      213: -148475935001931201
+    second: smokeFX_gunshot_108
+  - first:
+      213: 7942493161133390101
+    second: smokeFX_gunshot_109
+  - first:
+      213: -4233715661534901899
+    second: smokeFX_gunshot_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smokeFX_gunshot_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8644
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e976b41da94ce6460800000000000000
+      internalID: 7236937820446353310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 8644
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c05c2415e7eb0fc0800000000000000
+      internalID: -3527470912042676025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_10
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 8644
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1500a1380d64b8970800000000000000
+      internalID: 8758171761718722641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6484
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661edce6c0689da20800000000000000
+      internalID: 3087646407495901542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6484
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0e3a5504e91dc80800000000000000
+      internalID: -8299678639115214630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4324
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb7b33a92eeeb230800000000000000
+      internalID: 3656621810071075806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_5
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4324
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45051a08f2fbb4360800000000000000
+      internalID: 7155022643750588500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2164
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40961ce39cab7300800000000000000
+      internalID: 250983955570266187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_7
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 2173
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a0ff0682fb69ea0800000000000000
+      internalID: -5866291284456568193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248a887e386b1d770800000000000000
+      internalID: 8633882638287415362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeFX_gunshot_9
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb08fd8ea775a9a0800000000000000
+      internalID: -6222435718552613943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c9b84a8542c08e47a71ce1988528fe4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":5.0},"gridSpriteSize":{"x":3840.0,"y":2160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      smokeFX_gunshot_0: 7236937820446353310
+      smokeFX_gunshot_1: 3087646407495901542
+      smokeFX_gunshot_10: 8758171761718722641
+      smokeFX_gunshot_2: 3656621810071075806
+      smokeFX_gunshot_3: -3527470912042676025
+      smokeFX_gunshot_4: -8299678639115214630
+      smokeFX_gunshot_5: 7155022643750588500
+      smokeFX_gunshot_6: 250983955570266187
+      smokeFX_gunshot_7: -5866291284456568193
+      smokeFX_gunshot_8: 8633882638287415362
+      smokeFX_gunshot_9: -6222435718552613943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

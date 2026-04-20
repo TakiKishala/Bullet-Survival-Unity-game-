@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 446629dde195fb74bab294fe6bafc05f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 230682478857535612
+    second: bloodFX_0
+  - first:
+      213: 5775794798139851396
+    second: bloodFX_1
+  - first:
+      213: -5117174523931265339
+    second: bloodFX_2
+  - first:
+      213: -5882477251511254779
+    second: bloodFX_3
+  - first:
+      213: 3399376847048223232
+    second: bloodFX_4
+  - first:
+      213: -3648426054856882281
+    second: bloodFX_5
+  - first:
+      213: -6142990196107725772
+    second: bloodFX_6
+  - first:
+      213: 7114717080425119471
+    second: bloodFX_7
+  - first:
+      213: 2786703054523904753
+    second: bloodFX_8
+  - first:
+      213: -8513329763251170598
+    second: bloodFX_9
+  - first:
+      213: -4219517926220964743
+    second: bloodFX_10
+  - first:
+      213: 4159754102851197456
+    second: bloodFX_11
+  - first:
+      213: -6541984195464753803
+    second: bloodFX_12
+  - first:
+      213: -7611696277955950628
+    second: bloodFX_13
+  - first:
+      213: -1648530427426935597
+    second: bloodFX_14
+  - first:
+      213: 9126177044185590940
+    second: bloodFX_15
+  - first:
+      213: -391434526051703124
+    second: bloodFX_16
+  - first:
+      213: 916917541389752719
+    second: bloodFX_17
+  - first:
+      213: 6406210916433219981
+    second: bloodFX_18
+  - first:
+      213: -5430152915151462216
+    second: bloodFX_19
+  - first:
+      213: 368372652031875565
+    second: bloodFX_20
+  - first:
+      213: -3920630574700885739
+    second: bloodFX_21
+  - first:
+      213: -3461971792246701754
+    second: bloodFX_22
+  - first:
+      213: -4651885261004903278
+    second: bloodFX_23
+  - first:
+      213: -3446792260305138618
+    second: bloodFX_24
+  - first:
+      213: 8914856146786490052
+    second: bloodFX_25
+  - first:
+      213: -6094092104936149616
+    second: bloodFX_26
+  - first:
+      213: -6663710044189841746
+    second: bloodFX_27
+  - first:
+      213: 2638979621669229788
+    second: bloodFX_28
+  - first:
+      213: 5316284612389440105
+    second: bloodFX_29
+  - first:
+      213: -3238988598102163508
+    second: bloodFX_30
+  - first:
+      213: 4207458162934349813
+    second: bloodFX_31
+  - first:
+      213: -6778487285521275411
+    second: bloodFX_32
+  - first:
+      213: 1630655339185577889
+    second: bloodFX_33
+  - first:
+      213: 5598637988510158900
+    second: bloodFX_34
+  - first:
+      213: 5790570514896205655
+    second: bloodFX_35
+  - first:
+      213: 5381880816862926661
+    second: bloodFX_36
+  - first:
+      213: 220627319129941393
+    second: bloodFX_37
+  - first:
+      213: -8476224632546920018
+    second: bloodFX_38
+  - first:
+      213: -3327516082305464560
+    second: bloodFX_39
+  - first:
+      213: -151620107658336156
+    second: bloodFX_40
+  - first:
+      213: -6884882700431929763
+    second: bloodFX_41
+  - first:
+      213: -3634370409917677186
+    second: bloodFX_42
+  - first:
+      213: 7891912387003384322
+    second: bloodFX_43
+  - first:
+      213: 1450709988131797271
+    second: bloodFX_44
+  - first:
+      213: 2552031421235163752
+    second: bloodFX_45
+  - first:
+      213: -8183928114927965538
+    second: bloodFX_46
+  - first:
+      213: 873091979462370034
+    second: bloodFX_47
+  - first:
+      213: -7413073722541338979
+    second: bloodFX_48
+  - first:
+      213: 3754911021001870734
+    second: bloodFX_49
+  - first:
+      213: -6983426549884211158
+    second: bloodFX_50
+  - first:
+      213: 3216248205017303987
+    second: bloodFX_51
+  - first:
+      213: 332823044121391762
+    second: bloodFX_52
+  - first:
+      213: 5627214142905842498
+    second: bloodFX_53
+  - first:
+      213: 7328928534077682025
+    second: bloodFX_54
+  - first:
+      213: 3671666750620405551
+    second: bloodFX_55
+  - first:
+      213: -2168288835260390858
+    second: bloodFX_56
+  - first:
+      213: 5430384068237729533
+    second: bloodFX_57
+  - first:
+      213: -6418310624014665394
+    second: bloodFX_58
+  - first:
+      213: 1299137431195101687
+    second: bloodFX_59
+  - first:
+      213: 5820942679134866433
+    second: bloodFX_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloodFX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6483
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70c5380e7c833300800000000000000
+      internalID: 230682478857535612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodFX_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2163
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482cca674ceb72050800000000000000
+      internalID: 5775794798139851396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodFX_3
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 6483
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6f567e1e42cf8b0800000000000000
+      internalID: -5117174523931265339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodFX_6
+      rect:
+        serializedVersion: 2
+        x: 4841
+        y: 2173
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5010b504b1e3d5ea0800000000000000
+      internalID: -5882477251511254779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodFX_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4332
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a2ff15b330d2f20800000000000000
+      internalID: 3399376847048223232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodFX_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797c9f255df2e5dc0800000000000000
+      internalID: -3648426054856882281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodFX_5
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 4341
+        width: 4840
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5891297, y: 0.5464503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434ba4ea6f6bfbaa0800000000000000
+      internalID: -6142990196107725772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ddf1b9a7dcd1d440b329b9f5d5ea0a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":4.0},"gridSpriteSize":{"x":4840.0,"y":2160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5891296863555908,"y":0.5464503169059753},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      bloodFX_0: 230682478857535612
+      bloodFX_1: 3399376847048223232
+      bloodFX_2: 5775794798139851396
+      bloodFX_3: -5117174523931265339
+      bloodFX_4: -3648426054856882281
+      bloodFX_5: -6142990196107725772
+      bloodFX_6: -5882477251511254779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
