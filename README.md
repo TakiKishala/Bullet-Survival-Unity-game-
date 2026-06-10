@@ -1,7 +1,7 @@
 # 🎮 BULLET SURVIVAL
 
 Bullet Survival is a fast-paced survival game where you play as a lone cowboy fighting against endless waves of hostile cowboys. Dodge bullets, stay on the move, and survive as long as possible while the horde grows stronger with each wave.
-![Game Banner](images/banner.png)
+![Game Banner](images/bulletBanner.png)
 
 ## 📖 About
 
