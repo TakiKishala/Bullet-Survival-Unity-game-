@@ -25,13 +25,14 @@ Example:
 ## 📸 Screenshots
 
 ### Main Menu
-![Main Menu](images/menu.png)
+![Main Menu](images/MainMenu.png)
 
 ### Gameplay
-![Gameplay](images/gameplay.png)
+![Gameplay](images/Screenshot1.png)
+![Gameplay](images/Screenshot3.png)
 
 ### Game Over Screen
-![Game Over](images/gameover.png)
+![Game Over](images/Screenshot2.png)
 
 ---
 
