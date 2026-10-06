@@ -2,42 +2,57 @@ using UnityEngine;
 
 public class EnemyDeath : MonoBehaviour
 {
-    
-    public Animator animator; // Reference to the Animator component
-    private bool isDead = false; // Flag to check if the enemy is already dead
+    public Animator animator;
+    private bool isDead = false;
 
-    public GameObject bloodFXprefab; // Reference to the blood effect prefab
+    public GameObject bloodFXprefab;
 
-    public GameObject enemyHands; // Reference to the enemy's hands GameObject
+    public GameObject enemyHands;
     public GameObject enemyFootShadow;
+
+    public EnemySpawnManager enemySpawnManager;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!isDead && collision.gameObject.CompareTag("Bullet"))
         {
-            ContactPoint2D contact = collision.contacts[0]; // Get the contact point of the collision
-            GameObject bloodFX = Instantiate(bloodFXprefab, contact.point, Quaternion.identity); // Instantiate the blood effect at the contact point
-            Destroy(bloodFX, 1f); // Destroy the blood effect after a short delay
+            Bullet bullet = collision.gameObject.GetComponent<Bullet>();
+            if(bullet == null || !bullet.TryHit())
+            {
+                return;
+            }
+
+            ContactPoint2D contact = collision.contacts[0];
+            GameObject bloodFX = Instantiate(bloodFXprefab, contact.point, Quaternion.identity);
+            Destroy(bloodFX, 1f);
             Die();
         }
     }
-   void Die()
+
+    void Die()
     {
-        isDead = true; // Set the flag to prevent multiple triggers
-        Destroy(enemyHands); // Destroy the enemy's hands GameObject
-        Destroy(enemyFootShadow); // Destroy the enemy's foot shadow GameObject
+        isDead = true;
+        if (enemySpawnManager != null)
+        {
+            enemySpawnManager.EnemyDied();
+        }
+        Destroy(enemyHands);
+        Destroy(enemyFootShadow);
 
+        ScoreManager.instance.AddScore(1);
 
-        ScoreManager.instance.AddScore(100); // Add score for killing the enemy
+        SFXManager.Instance.PlayRandom(SFXManager.Instance.hitEnemy, SFXManager.Instance.enemyVolume);
+        SFXManager.Instance.PlaySFX(SFXManager.Instance.enemyImpact, SFXManager.Instance.impactVolume);
 
-        SFXManager.Instance.PlayRandom(SFXManager.Instance.hitEnemy, SFXManager.Instance.enemyVolume); // Play the enemy death sound effect
-        SFXManager.Instance.PlaySFX(SFXManager.Instance.enemyImpact, SFXManager.Instance.impactVolume); // Play the enemy death sound effect
+        GetComponent<EnemyAI>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.simulated = false;
 
-        GetComponent<EnemyAI>().enabled = false; // Disable the enemy's AI script
-        GetComponent<Collider2D>().enabled = false; // Disable the enemy's collider to prevent further interactions
+        animator.SetTrigger("isShot");
 
-        animator.SetTrigger("isShot"); // Trigger the death animation
-
-        Destroy(gameObject, 1f); // Destroy the enemy after a delay to allow the animation to play
+        Destroy(gameObject, 1f);
     }
 }

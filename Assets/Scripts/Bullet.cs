@@ -2,26 +2,50 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-
-
     public float speed = 10f;
     public float lifeTime = 2f;
 
-    private Vector3 direction;
+    private bool hasHit;
 
-    public void setDirection(Vector3 dir)
+    public float remainingLifeTime;
+
+    private Rigidbody2D rb;
+
+    private void Awake()
     {
-        direction = dir.normalized;
-        //transform.rotation = Quaternion.LookRotation(Vector3.forward, direction);
-    }   
-    void Start()
-    {
-        Destroy(gameObject, lifeTime);
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    private void OnEnable()
+    {
+        remainingLifeTime = lifeTime;
+        hasHit = false;
+        rb.angularVelocity = 0f;
+        rb.linearVelocity = (Vector2)transform.right * speed;
+    }
+
+    private void OnDisable()
+    {
+        rb.linearVelocity = Vector2.zero;
+    }
+
     void Update()
     {
-        transform.position += transform.right * speed * Time.deltaTime;
+
+        remainingLifeTime -= Time.deltaTime;
+
+        if (remainingLifeTime <= 0f)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+    public bool TryHit()
+    {
+        if (hasHit)
+        {
+            return false;
+        }
+        hasHit = true;
+        return true;
     }
 }

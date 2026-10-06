@@ -12,13 +12,11 @@ public class SFXManager : MonoBehaviour
     [Range(0f, 1f)] public float enemyVolume = 1f;
     [Range(0f, 1f)] public float impactVolume = 0.1f;
 
-
     [Header("Gun")]
     public AudioClip[] enemyGunShots;
 
     [Header("Grunts")]
     public AudioClip[] hitEnemy;
-    public AudioClip hitWall;
 
     [Header("Enemy Impact")]
     public AudioClip enemyImpact;
@@ -37,9 +35,10 @@ public class SFXManager : MonoBehaviour
 
     public void PlaySFX(AudioClip clip, float volume = 1f)
     {
-        audioSource.pitch = Random.Range(0.9f, 1.1f); // variation
-        audioSource.PlayOneShot(clip, volume);
+        audioSource.pitch = Random.Range(0.9f, 1.1f);
+        audioSource.PlayOneShot(clip, volume * masterVolume);
     }
+
     public void PlayRandom(AudioClip[] clips, float volume = 1f)
     {
         if (clips.Length == 0) return;

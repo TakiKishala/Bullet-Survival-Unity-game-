@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class SmokeFX : MonoBehaviour
 {
-    public float lifeTime = 0.75f; // fallback destroy time
+    public float lifeTime = 1.6f;
+
+    private float remainingLife;
 
     private Animator anim;
 
@@ -13,16 +15,21 @@ public class SmokeFX : MonoBehaviour
 
     void OnEnable()
     {
-        // Option 1: destroy using animation length (best)
+        remainingLife = lifeTime;
+
         if (anim != null)
         {
-            float clipLength = anim.GetCurrentAnimatorStateInfo(0).length;
-            Destroy(gameObject, clipLength);
+            anim.Rebind();
+            anim.Update(0f);
         }
-        else
+    }
+
+    private void Update()
+    {
+        remainingLife -= Time.deltaTime;
+        if (remainingLife <= 0f)
         {
-            // fallback if no animator
-            Destroy(gameObject, lifeTime);
+            gameObject.SetActive(false);
         }
     }
 }
