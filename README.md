@@ -1,119 +1,57 @@
-# 🎮 BULLET SURVIVAL
+# Bullet Survival
 
-Bullet Survival is a fast-paced survival game where you play as a lone cowboy fighting against endless waves of hostile cowboys. Dodge bullets, stay on the move, and survive as long as possible while the horde grows stronger with each wave.
-![Game Banner](images/bulletBanner.png)
+**Version 0.0.2** — a personal 2D survival shooter built with Unity and C# by Taki Kishala, with original 2D artwork.
 
-## 📖 About
+![Game banner](images/bulletBanner.png)
 
-Describe your game here. Explain the objective, gameplay, inspiration, and what makes it unique.
+[Watch gameplay](https://youtu.be/54X2zxvfbJ8)
 
-Example:
-> A fast-paced arcade game where players dodge obstacles, collect coins, and survive as long as possible.
+Fight hostile cowboys, dodge incoming shots, and earn points by defeating enemies.
 
----
+## Features
 
-## ✨ Features
+- Player movement, mouse aiming, and shooting.
+- Enemy AI, spawning, and population limits.
+- Reusable bullet and smoke object pools.
+- Scoring, pause/resume, death, game-over, and restart flows.
+- Original 2D artwork, animations, sound effects, and camera shake.
 
-- 🎯 Feature 1
-- 🎮 Feature 2
-- 🏆 High score system
-- 🔊 Sound effects and music
-- 💾 Save system
+## Update 0.0.2
 
----
+- Updated source, scenes, prefabs, and smoke animation to match the current working project.
+- Pooled bullets reset their lifetime and hit state on activation.
+- A per-shot hit guard prevents one bullet from killing multiple stacked enemies.
+- Rigidbody2D bullet movement and continuous collision detection address missed fast-projectile collisions.
+- Removed unused variables, methods, imports, and commented experiments.
 
-## 📸 Screenshots
+See [CHANGELOG.md](CHANGELOG.md) for validation details.
 
-### Main Menu
-![Main Menu](images/MainMenu.png)
+## Controls
 
-### Gameplay
+| Action | Input |
+| --- | --- |
+| Move | WASD / arrow keys |
+| Aim | Mouse |
+| Shoot | Left mouse button |
+| Pause / resume | Escape |
+| Restart | Game-over screen button |
+
+## Open the project
+
+1. Clone this repository.
+2. Add the project folder in Unity Hub and open it with **Unity 6000.3.5f1**.
+3. Open `Assets/Scenes/Main menu.unity` and press Play.
+
+Unity generates Library and other caches locally; they are excluded from Git.
+This update publishes the Unity project source, not a standalone game build.
+
+## Screenshots
+
+![Main menu](images/MainMenu.png)
 ![Gameplay](images/Screenshot1.png)
 ![Gameplay](images/Screenshot3.png)
+![Game over](images/Screenshot2.png)
 
-### Game Over Screen
-![Game Over](images/Screenshot2.png)
+## Developer
 
----
-
-## 🛠️ Built With
-
-- Unity 6
-- C#
-- Visual Studio
-- Git & GitHub
-
----
-
-## 🎮 Controls
-
-| Action | Key |
-|----------|----------|
-| Move Left | A / Left Arrow |
-| Move Right | D / Right Arrow |
-| Jump | Space |
-| Pause | Esc |
-
----
-
-## 🚀 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/game-name.git
-   ```
-
-2. Open the project in Unity.
-
-3. Press Play or build the game.
-
----
-
-## 📂 Project Structure
-
-```text
-Assets/
-├── Scripts/
-├── Prefabs/
-├── Sprites/
-├── Audio/
-├── Scenes/
-└── UI/
-```
-
----
-
-## 🎯 Future Improvements
-
-- [ ] Add more levels
-- [ ] Multiplayer support
-- [ ] Achievement system
-- [ ] Mobile version
-
----
-
-## 🐛 Known Issues
-
-- Issue 1
-- Issue 2
-
----
-
-## 👨‍💻 Developer
-
-**Taki Kishala**
-
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a star ⭐ on GitHub!
+[Taki Kishala](https://github.com/TakiKishala) — programming and original 2D artwork.
